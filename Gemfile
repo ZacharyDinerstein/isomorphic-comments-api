@@ -1,15 +1,10 @@
 source 'https://rubygems.org'
 
-
 gem 'rails', '~> 5.2.3'
-
 gem 'rails-api'
-
-gem 'spring', :group => :development
-
-
-gem 'sqlite3'
-
+gem 'active_model_serializers', '~> 0.8.3'
+gem 'responders'
+gem 'pg'
 
 
 # To use ActiveModel has_secure_password
